@@ -4,7 +4,7 @@ import Judges from './components/Judges/Judges';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <Header />
       <Judges />
     </div>

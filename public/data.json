@@ -40,7 +40,7 @@
     "name": "Gordon James",
     "age": 54,
     "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Gordon_Ramsay.jpg",
-    "country": "United Kingdom",
+    "country": "UK",
     "star": 8,
     "salary": 9519057
   },
@@ -85,7 +85,7 @@
     "name": "Heston Blumenthal",
     "age": 55,
     "img": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Heston-Blumenthal.jpg?itok=Do8AN6Dd",
-    "country": "United Kingdom",
+    "country": "UK",
     "star": 7,
     "salary": 7919095
   },

@@ -27,7 +27,11 @@ const JudgeCard = (props) => {
           </table>
         </div>
         <div className="card-footer">
-          <button type="button" className="btn btn-dark">
+          <button
+            type="button"
+            className="btn btn-dark"
+            onClick={() => props.handleAddToPanel(props.judge)}
+          >
             <i className="fas fa-user-plus"></i> Add To Panel
           </button>
         </div>
