@@ -8,6 +8,12 @@ const PanelCard = (props) => {
   const totalSalary = addToPannel.reduce(salaryReducer, 0);
   return (
     <div className="chef-judge-bg rounded py-2  shadow-sm panel-position">
+      <h3 className="text-white">
+        Judge Panel
+        <br />
+        Summary
+      </h3>
+      <hr className="text-white w-75 mx-auto" />
       <p className="text-white fw-bold">
         Chef Added <i class="fas fa-chevron-right"></i>
         {addToPannel.length}
@@ -18,9 +24,9 @@ const PanelCard = (props) => {
       </p>
       {addToPannel.map((judge) => (
         <div key={judge.name + Math.random(1, 100)}>
-          <p className="text-white rounded p-2 mx-4 my-2 shadow-lg">
-            {judge.name}{' '}
-          </p>
+          <div className="conatiner text-white rounded py-2 mx-4 mb-2 shadow-lg">
+            {judge.name}
+          </div>
         </div>
       ))}
     </div>
