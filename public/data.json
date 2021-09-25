@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Alain Ducasse",
+    "age": 65,
+    "img": "https://bucket.mn2s.com/wp-content/uploads/2020/03/30173134/Alain-Ducasse-MN2S.jpg",
+    "country": "French",
+    "star": 19,
+    "salary": 7058841
+  },
+  {
+    "id": 2,
+    "name": "Pierre Gagnaire",
+    "age": 71,
+    "img": "https://pbs.twimg.com/profile_images/885490087902969856/e8VASoO7_400x400.jpg",
+    "country": "French",
+    "star": 14,
+    "salary": 4975401
+  },
+  {
+    "id": 3,
+    "name": "Yannick Alléno",
+    "age": 52,
+    "img": "https://pbs.twimg.com/profile_images/747402172200017924/zBKS1vTz_400x400.jpg",
+    "country": "French",
+    "star": 12,
+    "salary": 7302733
+  },
+  {
+    "id": 4,
+    "name": "Anne-Sophie",
+    "age": 52,
+    "img": "https://www.wbpstars.com/wp-content/uploads/2021/02/Anne-Sophie-Pic-photo6016db422785a-1440x810.jpg?v=1612480691",
+    "country": "French",
+    "star": 10,
+    "salary": 8067150
+  },
+  {
+    "id": 5,
+    "name": "Gordon James",
+    "age": 54,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Gordon_Ramsay.jpg",
+    "country": "United Kingdom",
+    "star": 8,
+    "salary": 9519057
+  },
+  {
+    "id": 6,
+    "name": "Thomas Keller",
+    "age": 65,
+    "img": "https://www.thomaskeller.com/sites/default/files/styles/bio/public/media/franchises/staff_bios_headshots/tk.com_tk_portrait.biography3_0.jpg?itok=x8qxhQEk",
+    "country": "America",
+    "star": 7,
+    "salary": 7904071
+  },
+  {
+    "id": 7,
+    "name": "Yoshihiro Murata",
+    "age": 69,
+    "img": "https://www.celebchefs.net/wp-content/uploads/2017/07/Chef-Yoshihiro-Murata.jpg",
+    "country": "Japan",
+    "star": 7,
+    "salary": 1253607
+  },
+  {
+    "id": 8,
+    "name": "Seiji Yamamoto",
+    "age": 51,
+    "img": "https://wp.foodion.net/en/wp-content/uploads/sites/3/2016/08/MG_0447.jpg",
+    "country": "Japan",
+    "star": 7,
+    "salary": 2123746
+  },
+  {
+    "id": 9,
+    "name": "Andreas Caminada",
+    "age": 44,
+    "img": "https://pbs.twimg.com/media/DPzTuo1UQAA63PL.jpg",
+    "country": "Switzerland",
+    "star": 7,
+    "salary": 7977784
+  },
+  {
+    "id": 10,
+    "name": "Heston Blumenthal",
+    "age": 55,
+    "img": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Heston-Blumenthal.jpg?itok=Do8AN6Dd",
+    "country": "United Kingdom",
+    "star": 7,
+    "salary": 7919095
+  },
+  {
+    "id": 11,
+    "name": "Masahiro Yoshitake",
+    "age": 40,
+    "img": "https://robert-parker-michelin-hk-prod.s3.amazonaws.com/media/image/2017/07/31/c99ce9b8fc7f4934bef01989c70e41b3_Chef+Kakinuma+3.JPG",
+    "country": "Japan",
+    "star": 6,
+    "salary": 552164
+  },
+  {
+    "id": 12,
+    "name": "Heinz Beck",
+    "age": 57,
+    "img": "https://www.hoteliermiddleeast.com/2021/05/Heinz-Beck-HME.jpg",
+    "country": "German",
+    "star": 6,
+    "salary": 3800967
+  },
+  {
+    "id": 13,
+    "name": "Jordi Cruz",
+    "age": 43,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/20/With_Chef_Jordi_Cruz_%28cropped%29.jpg",
+    "country": "Spain",
+    "star": 5,
+    "salary": 9551310
+  },
+  {
+    "id": 14,
+    "name": "Paco Pérez",
+    "age": 34,
+    "img": "https://pbs.twimg.com/media/D7LujuwW0AYp9IN.jpg",
+    "country": "Barcelona",
+    "star": 5,
+    "salary": 9211257
+  },
+  {
+    "id": 15,
+    "name": "Quique Dacosta",
+    "age": 49,
+    "img": "https://edicionesanteriores.madridfusion.net/wp-content/uploads/sites/15/2018/10/Quique-Dacosta.jpg",
+    "country": "Spain",
+    "star": 5,
+    "salary": 6934511
+  }
+]

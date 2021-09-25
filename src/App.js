@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './components/Header/Header';
+import Judges from './components/Judges/Judges';
 
 function App() {
   return (
     <div className="App container">
-      <h1>Header</h1>
-      <h1>Chef Judges</h1>
+      <Header />
+      <Judges />
     </div>
   );
 }
