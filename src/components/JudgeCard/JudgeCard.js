@@ -35,7 +35,7 @@ const JudgeCard = (props) => {
               </tr>
               <tr>
                 <td>Salary</td>
-                <td>{salary}</td>
+                <td>$ {salary}</td>
               </tr>
             </tbody>
           </table>
