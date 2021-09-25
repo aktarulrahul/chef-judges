@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.chef-judge-bg {
+  /* background-image: linear-gradient(to right bottom, #f3722c, #f8961e); */
+  background-image: linear-gradient(to right bottom, #e43a15, #e65245);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .App-logo {
   height: 40vmin;

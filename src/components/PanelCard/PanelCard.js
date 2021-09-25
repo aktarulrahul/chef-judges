@@ -7,22 +7,22 @@ const PanelCard = (props) => {
     previous + addToPannel.salary;
   const totalSalary = addToPannel.reduce(salaryReducer, 0);
   return (
-    <div className="row shadow-sm p-3 bg-body rounded panel-card text-center">
-      <div className="col-4">
-        <div className="bg-dark shadow-sm py-3 rounded opacity-75 h-100">
-          <p className="text-white">Chef Added {addToPannel.length}</p>
-          <p className="text-white">Total Salary ${totalSalary} </p>
+    <div className="chef-judge-bg rounded py-2  shadow-sm panel-position">
+      <p className="text-white fw-bold">
+        Chef Added <i class="fas fa-chevron-right"></i>
+        {addToPannel.length}
+      </p>
+      <p className="text-white fw-bold">
+        Total Salary <i class="fas fa-dollar-sign"></i>
+        {totalSalary}{' '}
+      </p>
+      {addToPannel.map((judge) => (
+        <div key={judge.name + Math.random(1, 100)}>
+          <p className="text-white rounded p-2 mx-4 my-2 shadow-lg">
+            {judge.name}{' '}
+          </p>
         </div>
-      </div>
-      <div className="col-8">
-        <div className="row bg-dark shadow-sm py-3 rounded opacity-75 h-100">
-          {addToPannel.map((jaduge) => (
-            <div key={jaduge.name + Math.random(1, 100)} className="col-4">
-              <p className="text-white">{jaduge.name} </p>
-            </div>
-          ))}
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

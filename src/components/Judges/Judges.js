@@ -16,17 +16,22 @@ const Judges = () => {
     setAddToPanel(addedJudges);
   };
   return (
-    <div className="container">
-      <PanelCard addToPannel={addToPannel} />
-      <hr />
-      <div className="row row-cols-1 row-cols-md-3 g-4">
-        {judges.map((judge) => (
-          <JudgeCard
-            key={judge.id}
-            judge={judge}
-            handleAddToPanel={handleAddToPanel}
-          />
-        ))}
+    <div className="ms-3">
+      <div className="row">
+        <div className="col-9">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            {judges.map((judge) => (
+              <JudgeCard
+                key={judge.id}
+                judge={judge}
+                handleAddToPanel={handleAddToPanel}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="col-3">
+          <PanelCard addToPannel={addToPannel} />
+        </div>
       </div>
     </div>
   );
