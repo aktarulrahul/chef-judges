@@ -5,10 +5,10 @@ const JudgeCard = (props) => {
   const { name, img, country, star, salary, dishes, age } = props.judge;
   return (
     <div className="col">
-      <div className="card shadow p-2 mb-5 bg-body rounded">
+      <div className="card shadow p-3 bg-body rounded">
         <img
           src={img}
-          className="card-img-top judge-img shadow rounded-circle"
+          className="card-img-top judge-img shadow border"
           alt={name}
         />
         <div className="card-body">
