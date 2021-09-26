@@ -1,6 +1,6 @@
 .judge-img {
-  height: 300px;
+  max-height: 350px;
+  min-height: 280px;
   width: auto;
   object-fit: cover;
-  border-radius: 50%;
 }

@@ -6,7 +6,11 @@ const JudgeCard = (props) => {
   return (
     <div className="col">
       <div className="card shadow p-2 mb-5 bg-body rounded">
-        <img src={img} className="card-img-top judge-img shadow" alt={name} />
+        <img
+          src={img}
+          className="card-img-top judge-img shadow rounded-circle"
+          alt={name}
+        />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <table className="table table-hover text-start">
