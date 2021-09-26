@@ -3,6 +3,7 @@ import './PanelCard.css';
 
 const PanelCard = (props) => {
   const { addToPannel } = props;
+  // Judge salary calculation
   const salaryReducer = (previous, addToPannel) =>
     previous + addToPannel.salary;
   const totalSalary = addToPannel.reduce(salaryReducer, 0);
