@@ -7,7 +7,7 @@ const Judges = () => {
   // data for showing judges on UI
   const [judges, setJudges] = useState([]);
   // data for Add to the judge panel
-  const [addToPannel, setAddToPanel] = useState([]);
+  const [addToPanel, setAddToPanel] = useState([]);
   useEffect(() => {
     fetch('./data.json')
       .then((res) => res.json())
@@ -16,7 +16,7 @@ const Judges = () => {
   // Button click handler
   const handleAddToPanel = (judge) => {
     // Declear a temporary variable to add existing and new judge to the panel
-    const addedJudges = [...addToPannel, judge];
+    const addedJudges = [...addToPanel, judge];
     setAddToPanel(addedJudges);
   };
   return (
@@ -34,7 +34,7 @@ const Judges = () => {
           </div>
         </div>
         <div className="col-3">
-          <PanelCard addToPannel={addToPannel} />
+          <PanelCard addToPanel={addToPanel} />
         </div>
       </div>
     </div>

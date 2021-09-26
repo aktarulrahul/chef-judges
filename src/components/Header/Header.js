@@ -8,7 +8,7 @@ const Header = () => {
       <p className="text-white">
         Choose judges from world top Chef for the Judge Panel
       </p>
-      <h2 className="text-white">Total Budget $1 Billion</h2>
+      <h2 className="text-white">Total Budget $100 Billion</h2>
     </div>
   );
 };
