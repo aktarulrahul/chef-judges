@@ -1,6 +1,6 @@
 # Chef Judges
 
-Live Project Link [Chef Judges](https://github.com/).
+Live Project Link [Chef Judges](https://aktarulrahul-chef-judges.netlify.app/).
 
 ## Features
 
