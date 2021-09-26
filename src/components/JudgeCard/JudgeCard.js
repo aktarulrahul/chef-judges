@@ -20,7 +20,7 @@ const JudgeCard = (props) => {
                 <td>{age}</td>
               </tr>
               <tr>
-                <td>country</td>
+                <td>Country</td>
                 <td>{country}</td>
               </tr>
               <tr>
@@ -33,7 +33,7 @@ const JudgeCard = (props) => {
                 <td>
                   Michelin
                   <br />
-                  stars
+                  Stars
                 </td>
                 <td className="">{star}</td>
               </tr>

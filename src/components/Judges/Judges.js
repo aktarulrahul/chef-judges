@@ -16,8 +16,13 @@ const Judges = () => {
   // Button click handler
   const handleAddToPanel = (judge) => {
     // Declear a temporary variable to add existing and new judge to the panel
-    const addedJudges = [...addToPanel, judge];
-    setAddToPanel(addedJudges);
+    const addedNewJudges = [...addToPanel, judge];
+    // filter unique judges
+    const filteredJudge = addedNewJudges.filter(
+      (item, index) => addedNewJudges.indexOf(item) === index
+    );
+    // Set filtered unique judges to the panel
+    setAddToPanel(filteredJudge);
   };
   return (
     <div className="ms-3">
